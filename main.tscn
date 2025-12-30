@@ -23,8 +23,10 @@ shape = SubResource("RectangleShape2D_0xm2m")
 [node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
 
 [node name="Icon" type="Sprite2D" parent="."]
-position = Vector2(-299, 302)
+position = Vector2(-597, 108)
+scale = Vector2(1, 1.86914)
 texture = ExtResource("3_h2yge")
 
 [node name="Node2D" parent="." instance=ExtResource("4_1bvp3")]
-position = Vector2(2, 99)
+position = Vector2(2, 163)
+scale = Vector2(7.92757, 6.55986)

@@ -6,7 +6,7 @@ var time_elapsed := 0.0
 var speed := 0.0
 var opposite_direction := Vector2.ZERO
 var collision_strength := 1.0
-var bounciness := 0.6
+var bounciness := 1.3
 
 const max_speed := 10000.0
 const acceleration := 100.0
