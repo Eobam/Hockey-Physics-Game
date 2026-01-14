@@ -1,9 +1,10 @@
-[gd_scene load_steps=6 format=3 uid="uid://c81yig0hytjem"]
+[gd_scene load_steps=7 format=3 uid="uid://c81yig0hytjem"]
 
 [ext_resource type="Script" uid="uid://dfmni5j75etum" path="res://character_body_2d.gd" id="1_0xm2m"]
 [ext_resource type="Texture2D" uid="uid://dvt4ietxvubll" path="res://icon.svg" id="1_ig7tw"]
 [ext_resource type="Texture2D" uid="uid://bkqv5mmp0ataj" path="res://images/icon.jpg" id="3_h2yge"]
 [ext_resource type="PackedScene" uid="uid://dwdkx83gib2xd" path="res://movable_object.tscn" id="4_1bvp3"]
+[ext_resource type="Script" uid="uid://dhn5xo2xdmkp4" path="res://movable_object.gd" id="5_lquwl"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_0xm2m"]
 size = Vector2(127, 129)
@@ -30,3 +31,4 @@ texture = ExtResource("3_h2yge")
 [node name="Node2D" parent="." instance=ExtResource("4_1bvp3")]
 position = Vector2(2, 163)
 scale = Vector2(7.92757, 6.55986)
+script = ExtResource("5_lquwl")
